@@ -1,11 +1,7 @@
 #!/bin/bash
 
-# Check if the $PYFILE environment variable is set
-if [ -z "$PYFILE" ]; then
-  # If the variable is not set, print an error message and exit
-  echo "Error: PYFILE environment variable is not set"
-  exit 1
-fi
+# Store the name of the Python file in a variable
+PYFILE="main.py"
 
-# Run the Python script specified in the $PYFILE environment variable
+# Run the Python script using the python3 interpreter
 python3 $PYFILE
