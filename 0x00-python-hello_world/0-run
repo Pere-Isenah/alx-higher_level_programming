@@ -1,7 +1,2 @@
 #!/bin/bash
-
-# Store the name of the Python file in a variable
-PYFILE="main.py"
-
-# Run the Python script using the python3 interpreter
-python3 $PYFILE
+python3 "$PYFILE"
