@@ -5,4 +5,4 @@ def uppercase(str):
         if x in range(ord("a"), ord("z")+1):
             x = x-32 
         print(chr(x) , end = "")
-    print()
+    print("\n")
