@@ -3,6 +3,6 @@ if __name__ == "__main__":
     import sys
 
     b = 0
-    for x in sys.argv[1::]:
+    for x in sys.argv[1:]:
         b += int(x)
-    print("{}".format(x))
+    print("{:d}".format(b))
