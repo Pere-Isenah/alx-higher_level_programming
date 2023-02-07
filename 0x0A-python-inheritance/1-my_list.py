@@ -5,10 +5,10 @@ n = []
 
 
 class MyList(list):
-    # Initialize the class and call the superclass's constructor
+    """ Initialize the class and call the superclass's constructor"""
     def __init__(self):
         super().__init__(n)
 
-    # Method to print the list sorted
+    """ Method to print the list sorted"""
     def print_sorted(self):
         print(sorted(self))
