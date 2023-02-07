@@ -5,10 +5,12 @@ n = []
 
 
 class MyList(list):
-    """ Initialize the class and call the superclass's constructor"""
+    """subclas olistf a """
     def __init__(self):
+        """ Initialize the class and call the superclass's constructor"""
         super().__init__(n)
 
-    """ Method to print the list sorted"""
+
     def print_sorted(self):
+        """ Method to print the list sorted"""
         print(sorted(self))
