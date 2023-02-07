@@ -10,7 +10,6 @@ class MyList(list):
         """ Initialize the class and call the superclass's constructor"""
         super().__init__(n)
 
-
     def print_sorted(self):
         """ Method to print the list sorted"""
         print(sorted(self))
