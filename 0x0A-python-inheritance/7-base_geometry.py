@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+"""Defines a base geometry class BaseGeometry."""
+
 
 # BaseGeometry class
 class BaseGeometry:
-    """The BaseGeometry class is a blueprint for creating geometric objects."""
+    """Represent a Base Geometry class"""
 
     # area method (not implemented)
     def area(self):
