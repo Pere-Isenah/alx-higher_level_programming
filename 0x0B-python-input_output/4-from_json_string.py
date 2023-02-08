@@ -11,4 +11,4 @@ def from_json_string(my_str):
     my_str: object
     """
     return json.loads(my_str)
-    print("{}".format(type(my_str)))
+
