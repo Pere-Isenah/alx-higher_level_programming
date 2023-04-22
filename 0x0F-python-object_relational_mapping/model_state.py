@@ -1,3 +1,5 @@
+#!/bin/usr/python3
+
 """
 a script that define a state class and a base class
 to work with MySqlAlchemy ORM
