@@ -16,7 +16,7 @@ if __name__ == "__main__":
     """
      Connect to the MySQL database using the provided credentials
     """
-    query="SELECT * FROM states WHERE BINARY name = %s ORDER BY states.id ASC"
+    query="SELECT * FROM states WHERE BINARY name LIKE %s ORDER BY states.id ASC"
     cur.execute(query,(sys.argv[4],))
     rows = cur.fetchall()
     for row in rows:
