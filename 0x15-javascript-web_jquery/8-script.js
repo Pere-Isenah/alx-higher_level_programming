@@ -8,7 +8,7 @@ $(document).ready( function () {
                         for (values in value) {
                             if( values === "title"){
                                 // console.log(value[values])
-                                $("#list_movies").prepend("<li>1<li>")
+                                $("#list_movies").prepend(`<li>${value[values]}</li>`)
                         }}
                     }
                 }
